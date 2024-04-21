@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const MegaMenu = ({ containerStyle, onClose }) => {
     return (
-        <div className={containerStyle + 'fixed top-0 left-0 right-0 bottom-0 w-full h-screen bg-white py-7'} id='megaMenu'>
+        <div className={containerStyle + 'z-40 fixed top-0 left-0 right-0 bottom-0 w-full h-screen bg-white py-7'} id='megaMenu'>
             <div className="container mx-auto">
                 <div className="flex flex-col">
                     <button onClick={onClose} className='ml-auto text-green-600 font-semibold p-2 cursor-pointer border border-green-200'>

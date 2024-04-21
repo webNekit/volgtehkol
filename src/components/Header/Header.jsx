@@ -37,7 +37,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="w-full py-4 flex items-center justify-between">
           <Link href={'/'} className='uppercase text-sm font-semibold text-white'>Волгоградский<br />технический<br />колледж</Link>
-          <nav>
+          <nav className='hidden md:flex'>
             <menu className="flex items-center gap-5">
               {Menu.map(( item, index ) => {
                 return (
