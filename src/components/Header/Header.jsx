@@ -12,11 +12,11 @@ const Header = () => {
     setIsOpen(true);
   }
   return (
-    <header className='fixed top-0 left-0 right-0 p-4 w-full' id='header'>
+    <header className='absolute top-0 left-0 right-0 p-4 w-full' id='header'>
       <div className="w-full border-b border-white/10">
         <div className="container mx-auto">
           <div className="w-full py-5 flex items-center justify-between">
-            <ul className="flex items-center gap-5">
+            <ul className="hidden md:flex items-center gap-5">
               {TopMenu.map((item, index) => {
                 return (
                   <li key={index} className="inline-flex">
@@ -28,7 +28,7 @@ const Header = () => {
                 <Link href={'tel:89692881531'} className="font-medium text-white text-sm pb-1 border-b border-white/20 transition-colors hover:text-white/60">89692881531</Link>
               </li>
             </ul>
-            <button onClick={() => setIsOpen(true)} className="text-white p-2 cursor-pointer hover:text-white/60 transition-all">
+            <button onClick={openMenu} className="text-white p-2 cursor-pointer hover:text-white/60 transition-all">
               <MenuBar />
             </button>
           </div>
