@@ -26,6 +26,6 @@ export const abiturientList = {
         { label: 'Специальности', url: '/' },
         { label: 'Платное обучение', url: '/' },
         { label: 'Общежитие', url: '/' },
-        { label: 'Вопрос-ответ', url: '/' },       
+        { label: 'Вопрос-ответ', url: '/faq' },       
     ],
 }
