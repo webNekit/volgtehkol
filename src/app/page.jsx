@@ -1,13 +1,15 @@
-import Section from "@/components/Layout/Section";
 import Intro from "@/components/Sections/Intro/Intro";
 import News from "@/components/Sections/News/News";
-import Image from "next/image";
+import Social from "@/components/Sections/Social/Social";
+import Specials from "@/components/Sections/Specials/Specials";
 
 export default function Home() {
   return (
     <>
       <Intro getData={''} />
-      <News />
+      <News getData={''} />
+      <Specials getData={''} />
+      <Social />
     </>
   );
 }
