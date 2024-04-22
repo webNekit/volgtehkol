@@ -5,7 +5,7 @@ import React from 'react'
 const NewsData = ({ getData }) => {
   return (
     <div className='w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
-      {[1, 2, 3, 4].map((item, index) => {
+      {[1, 2, 3].map((item, index) => {
         return (
           <article key={index} className="w-full h-full flex flex-col gap-4 border border-green-200 p-2 rounded-lg">
             <div className="w-full h-[280px] relative">
