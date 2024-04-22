@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-import Section from '@/components/Layout/Section';
 import H2 from '@/components/UI/Heading/H2';
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { Breadcrumbs, BreadcrumbItem } from "@nextui-org/react";
