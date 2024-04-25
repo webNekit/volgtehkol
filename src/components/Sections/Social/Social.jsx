@@ -8,7 +8,7 @@ const Social = () => {
         <div className="container mx-auto py-8 flex flex-col gap-3 sm:flex-row items-center justify-between">
             <div className="flex flex-col gap-1">
                 <h2 className="text-white text-3xl font-semibold">Будь в курсе новостей</h2>
-                <h3 className="text-white/70 text-xl">Читайте нас в социальных сетях</h3>
+                <h3 className="text-white/70 text-base">Читайте нас в социальных сетях</h3>
             </div>
             <Link href={''} target='_blank' className='bg-white px-5 py-3 rounded-lg font-semibold'>Группа ВКонтакте</Link>
         </div>
