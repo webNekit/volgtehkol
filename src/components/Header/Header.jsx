@@ -14,7 +14,7 @@ const Header = () => {
     setIsOpen(true);
   }
   return (
-    <header className={pathName === '/' ? 'absolute top-0 left-0 right-0 p-4 w-full' : 'relative top-0 left-0 right-0 p-4 w-full'} id='header'>
+    <header className={pathName === '/' ? 'absolute top-0 left-0 right-0 p-4 w-full z-[90]' : 'relative top-0 left-0 right-0 p-4 w-full'} id='header'>
       <div className={pathName === '/' ? "w-full border-b border-white/10" : "w-full border-b border-black/10"}>
         <div className="container mx-auto">
           <div className="w-full py-5 flex items-center justify-between">
